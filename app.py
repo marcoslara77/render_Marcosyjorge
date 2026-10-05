@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return """
-    <h1>¡Hola desde Render!</h1>
+    <h1>¡Hola desde Render! - Cambio Realizado</h1>
     <p>Esta aplicación Python se está ejecutando en la nube como un servicio PaaS.</p>
     <p>Visita <a href="/status">/status</a> para ver información del servidor.</p>
     """
